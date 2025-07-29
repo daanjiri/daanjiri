@@ -46,6 +46,17 @@ An online Medical Intelligence tool where health professionals can research and 
 
 ---
 
+#### [CV Agent One](https://cv-agent-one.vercel.app/)  
+An AI‑powered CV customization agent that helps you tailor your resume to any specific job description, with intelligent content suggestions and formatting tweaks.
+
+**Built with:**  
+- Vercel SDK & Next.js AI  
+- Supabase (Database & Auth)  
+- TypeScript & Next.js  
+- OpenAI API  
+
+---
+
 #### [Legal Chat](https://legalchat-two.vercel.app/auth/login)  
 A conversational AI for legal firms, leveraging semantic search and RAG to answer complex legal queries in real time.
 
