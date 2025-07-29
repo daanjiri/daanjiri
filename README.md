@@ -34,7 +34,7 @@
 ### 📂 Projects
 
 #### [Coral Extraction App](https://arkangel.ai/)  
-An NLP-powered extraction platform that uses LLMs to pull structured insights from unstructured text in healthcare records.
+An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
 
 **Built with:**  
 - Python & FastAPI  
