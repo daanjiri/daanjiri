@@ -33,7 +33,7 @@
 
 ### 📂 Projects
 
-#### [Coral Extraction App](https://coral.arkangel.ai/)  
+#### [Coral Extraction App](https://arkangel.ai/)  
 An NLP-powered extraction platform that uses LLMs to pull structured insights from unstructured text in healthcare records.
 
 **Built with:**  
