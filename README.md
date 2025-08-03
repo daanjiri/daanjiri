@@ -1,6 +1,6 @@
 <h1 align="center">Portfolio</h1>
 <p align="center">
-  I'm a <strong>ML/AI Engineer</strong> with a Master's in Computational Linguistics and Information Technology.
+  <strong>ML/AI Engineer</strong> with a Master's in Computational Linguistics and Information Technology.
 </p>
 
 ### 🛠 Languages & Tools
