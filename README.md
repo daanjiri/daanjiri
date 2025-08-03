@@ -1,8 +1,6 @@
 <h1 align="center">Portfolio</h1>
-### 👩‍💻 About Me
-
-<p align="left">
-  I'm a <strong>ML/AI Engineer</strong> with a Master's in Computational Linguistics.
+<p align="center">
+  I'm a <strong>ML/AI Engineer</strong> with a Master's in Computational Linguistics and Information Technology.
 </p>
 
 ### 🛠 Languages & Tools
