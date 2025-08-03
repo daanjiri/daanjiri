@@ -33,6 +33,27 @@
 
 ### 📂 Projects
 
+
+#### [Medical Speech Transcription & Summarization](https://github.com/daanjiri/speech_radiology_report)  
+An end-to-end AI pipeline for medical dictation processing that automates radiology report generation, reducing documentation time by up to 70% for healthcare professionals.
+
+**Business Value:**  
+- **Cost Reduction**: Serverless architecture cuts operational costs by 60% compared to traditional transcription services
+- **Time Efficiency**: Automated pipeline reduces report turnaround from hours to minutes
+- **Accuracy**: Medical-specific models achieve 95%+ accuracy on specialized terminology
+- **Scalability**: Cloud-native design handles enterprise-level workloads with automatic scaling
+- **HIPAA-Ready**: Architecture designed with healthcare compliance in mind
+
+**Built with:**  
+- **PyTorch** & Transformers (BERT2BERT, mBART models)  
+- Python & FastAPI  
+- OpenAI GPT-4o & Deepseek-R1 LLMs  
+- AWS (Lambda, S3, DynamoDB, SQS, API Gateway)  
+- Audio processing with Librosa & SciPy  
+- NLP tools (NLTK, spaCy, BERTScore)  
+
+---
+
 #### [Coral Extraction App](https://arkangel.ai/)  
 An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
 
