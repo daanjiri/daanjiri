@@ -70,7 +70,7 @@ Thesis project that predicts early signs of Alzheimer's Disease based on speech 
 
 ---
 
-#### [Coral Extraction App](https://arkangel.ai/)  
+#### [Pandora Extraction App](https://arkangel.ai/)  
 An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
 
 **Business Value:**  
@@ -88,6 +88,8 @@ An online Medical Intelligence tool where health professionals can research and 
 - AWS (Lambda, S3, etc.) & Azure cloud services  
 - Redis cache & SQL database  
 
+**Research Links:**  
+- [Published Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5133901) (SSRN)  
 ---
 
 #### [CV Agent One](https://cv-agent-one.vercel.app/)  
