@@ -47,6 +47,29 @@ An end-to-end AI pipeline for medical dictation processing that automates radiol
 
 ---
 
+#### [Alzheimer's Disease Early Detection](https://github.com/M-I-Dx/alzheimers-detection)  
+Thesis project that predicts early signs of Alzheimer's Disease based on speech analysis of picture descriptions, achieving early intervention capabilities for cognitive decline. 
+
+**Business Value:**  
+- **Early Detection**: Enables identification of Alzheimer's symptoms years before traditional diagnosis methods
+- **Cost Savings**: Non-invasive assessment reduces need for expensive neuroimaging and extensive testing
+- **Accessibility**: Speech-based testing can be deployed in primary care settings and remote locations
+- **Preventive Care**: Early detection allows for timely intervention and treatment planning
+
+**Built with:**  
+- **PyTorch** & Transformers for deep learning models  
+- Python & scikit-learn for classical baselines  
+- NLP tools (NLTK, spaCy) for text preprocessing  
+- Audio processing with Librosa  
+- Statistical analysis with pandas & numpy  
+- Classification & Regression models for MMSE prediction  
+
+**Research Links:**  
+- [Blog Post](https://medium.com/@nguyentranminh/cognitive-assessment-and-role-of-computational-linguistics-a3d1a86eb3c2)  
+- [Final Report](https://www.overleaf.com/7871998143zxfrjjbrdyns#ea63aa)
+
+---
+
 #### [Coral Extraction App](https://arkangel.ai/)  
 An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
 
