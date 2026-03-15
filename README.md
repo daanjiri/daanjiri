@@ -46,7 +46,7 @@ An online Medical Intelligence tool where health professionals can research and 
 
 ---
 
-#### [Swarn AI — Autonomous Stock Trading Platform](https://github.com/daanjiri/ai-trader)
+#### [Swarn AI — Autonomous Stock Trading Platform](https://frontend-production-23a9.up.railway.app/dashboard) · [GitHub](https://github.com/daanjiri/ai-trader)
 A full-stack, multi-agent system for autonomous swing trading that combines ML, LLMs, and multi-source sentiment analysis into a single observable pipeline — running continuously during market hours with no human intervention required.
 
 **Business Value:**
