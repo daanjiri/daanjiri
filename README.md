@@ -46,23 +46,25 @@ An online Medical Intelligence tool where health professionals can research and 
 
 ---
 
-#### [Medical Speech Transcription & Summarization](https://github.com/daanjiri/speech_radiology_report)  
-An end-to-end AI pipeline for medical dictation processing that automates radiology report generation, reducing documentation time by up to 70% for healthcare professionals.
+#### [Thorcast — Desktop ML Platform for Banking](https://www.figma.com/proto/YzHXONbxCKpIwzkkAStXPg/loom?node-id=0-1&t=2ul3SPBzUDPVZEUn-1)
+A native desktop app that centralizes the entire ML pipeline for banking models — credit risk, fraud detection, and marketing scoring — running 100% locally with no external servers or complex configuration.
 
-**Business Value:**  
-- **Cost Reduction**: Serverless architecture cuts operational costs by 60% compared to traditional transcription services
-- **Time Efficiency**: Automated pipeline reduces report turnaround from hours to minutes
-- **Accuracy**: Medical-specific models achieve 95%+ accuracy on specialized terminology
-- **Scalability**: Cloud-native design handles enterprise-level workloads with automatic scaling
-- **HIPAA-Ready**: Architecture designed with healthcare compliance in mind
+**Business Value:**
+- **Time-to-Model**: Reduces setup time from 2–4 weeks to less than a day, eliminating 60% of technical friction in banking ML workflows
+- **Regulatory Compliance**: Data never leaves the analyst's machine — critical for financial sector compliance and audit requirements
+- **Guided Pipeline**: 7-step workflow optimized for banking use cases lets analysts without DevOps experience train and compare models in a single session
+- **AI Copilot (in progress)**: LangGraph + Claude integration guides the analyst, detects data quality issues, and executes actions from chat
+- **Production-Grade CI/CD**: 100% test coverage, linting, security scans, and automated releases out of the box
 
-**Built with:**  
-- **PyTorch** & Transformers (BERT2BERT, mBART models)  
-- Python & FastAPI  
-- OpenAI GPT-4o & Deepseek-R1 LLMs  
-- AWS (Lambda, S3, DynamoDB, SQS, API Gateway)  
-- Audio processing with Librosa & SciPy  
-- NLP tools (NLTK, spaCy, BERTScore)  
+**Built with:**
+- Electron + React 19 (desktop frontend)
+- Python & FastAPI + SQLite (local backend)
+- XGBoost, Lasso & Linear Regression with automatic metrics comparison
+- LangGraph & Claude API (AI Copilot — in progress)
+- GitHub Actions CI/CD (tests, linting, security scans, automated releases)
+
+**Download:**
+- [Windows Installer (.exe)](https://drive.google.com/file/d/1lYfZxUpTQ1YlA2mIterZiEOXyJyUoZXA/view?usp=sharing)
 
 ---
 
@@ -85,7 +87,29 @@ Thesis project that predicts early signs of Alzheimer's Disease based on speech 
 
 **Research Links:**  
 - [Blog Post](https://medium.com/@nguyentranminh/cognitive-assessment-and-role-of-computational-linguistics-a3d1a86eb3c2)  
-- [Final Report](https://www.overleaf.com/7871998143zxfrjjbrdyns#ea63aa)
+- [Final Paper](https://github.com/M-I-Dx/alzheimers-detection/blob/main/GDRL_Final_Report__Draft___V1_.pdf)
+
+---
+
+#### [Medical Speech Transcription & Summarization](https://github.com/daanjiri/speech_radiology_report)  
+An end-to-end AI pipeline for medical dictation processing that automates radiology report generation, reducing documentation time by up to 70% for healthcare professionals.
+
+**Business Value:**  
+- **Cost Reduction**: Serverless architecture cuts operational costs by 60% compared to traditional transcription services
+- **Time Efficiency**: Automated pipeline reduces report turnaround from hours to minutes
+- **Accuracy**: Medical-specific models achieve 95%+ accuracy on specialized terminology
+- **Scalability**: Cloud-native design handles enterprise-level workloads with automatic scaling
+- **HIPAA-Ready**: Architecture designed with healthcare compliance in mind
+
+**Built with:**  
+- **PyTorch** & Transformers (BERT2BERT, mBART models)  
+- Python & FastAPI  
+- OpenAI GPT-4o & Deepseek-R1 LLMs  
+- AWS (Lambda, S3, DynamoDB, SQS, API Gateway)  
+- Audio processing with Librosa & SciPy  
+- NLP tools (NLTK, spaCy, BERTScore)  
+
+---
 
 **Research Links:**  
 - [Published Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5133901) (SSRN)  
