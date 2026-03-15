@@ -26,6 +26,25 @@
 
 ### 📂 Projects
 
+#### [Pandora Medical Extraction agentic App](https://arkangel.ai/)  
+An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
+
+**Business Value:**  
+- **Clinical Efficiency**: Streamlines patient research workflows, reducing information retrieval time by 80%
+- **Decision Support**: AI-powered insights help medical professionals make more informed treatment decisions
+- **Knowledge Access**: Instant access to relevant medical information improves patient care quality
+- **Workflow Integration**: Seamlessly integrates into existing healthcare systems and processes
+- **Cost Effective**: Reduces time spent on manual research, allowing professionals to see more patients
+
+**Built with:**  
+- Python & FastAPI  
+- TypeScript & Next.js  
+- OpenAI API & RAG workflows  
+- LangGraph  
+- AWS (Lambda, S3, etc.) & Azure cloud services  
+- Redis cache & SQL database  
+
+---
 
 #### [Medical Speech Transcription & Summarization](https://github.com/daanjiri/speech_radiology_report)  
 An end-to-end AI pipeline for medical dictation processing that automates radiology report generation, reducing documentation time by up to 70% for healthcare professionals.
@@ -68,56 +87,6 @@ Thesis project that predicts early signs of Alzheimer's Disease based on speech 
 - [Blog Post](https://medium.com/@nguyentranminh/cognitive-assessment-and-role-of-computational-linguistics-a3d1a86eb3c2)  
 - [Final Report](https://www.overleaf.com/7871998143zxfrjjbrdyns#ea63aa)
 
----
-
-#### [Pandora Extraction App](https://arkangel.ai/)  
-An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
-
-**Business Value:**  
-- **Clinical Efficiency**: Streamlines patient research workflows, reducing information retrieval time by 80%
-- **Decision Support**: AI-powered insights help medical professionals make more informed treatment decisions
-- **Knowledge Access**: Instant access to relevant medical information improves patient care quality
-- **Workflow Integration**: Seamlessly integrates into existing healthcare systems and processes
-- **Cost Effective**: Reduces time spent on manual research, allowing professionals to see more patients
-
-**Built with:**  
-- Python & FastAPI  
-- TypeScript & Next.js  
-- OpenAI API & RAG workflows  
-- LangGraph  
-- AWS (Lambda, S3, etc.) & Azure cloud services  
-- Redis cache & SQL database  
-
 **Research Links:**  
 - [Published Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5133901) (SSRN)  
 ---
-
-#### [CV Agent One](https://cv-agent-one.vercel.app/)  
-An AI‑powered CV customization agent that helps you tailor your resume to any specific job description, with intelligent content suggestions and formatting tweaks.
-
-**Business Value:**  
-- **Job Match Rate**: Increases interview callback rates by 300% through targeted CV optimization
-- **Time Savings**: Reduces CV customization time from hours to minutes per application
-- **Market Advantage**: AI-driven keyword optimization ensures ATS system compatibility
-- **Personalization**: Intelligent content suggestions highlight relevant skills for each role
-- **Professional Quality**: Automated formatting ensures consistent, professional presentation
-
-**Built with:**  
-- Vercel SDK & Next.js AI  
-- Supabase (Database & Auth)  
-- TypeScript & Next.js  
-- OpenAI API  
-
----
-
-#### [Legal Chat](https://legalchat-two.vercel.app/auth/login)  
-A conversational AI for legal firms, leveraging semantic search and RAG to answer complex legal queries in real time.
-
-**Built with:**  
-- TypeScript & Next.js  
-- Vercel SDK deployment  
-- FAISS for vector search  
-- Qroq embeddings  
-- AWS Bedrock  
-- PostgreSQL database  
-
