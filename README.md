@@ -86,6 +86,7 @@ A native desktop app that centralizes the entire ML pipeline for banking models 
 - GitHub Actions CI/CD (tests, linting, security scans, automated releases)
 
 **Download:**
+- [Mac Installer (.dmg)](https://drive.google.com/file/d/1Amjs2ybDM-TLNMovfOONbmv_IVDMNAhS/view?usp=sharing)
 - [Windows Installer (.exe)](https://drive.google.com/file/d/1lYfZxUpTQ1YlA2mIterZiEOXyJyUoZXA/view?usp=sharing)
 
 ---
