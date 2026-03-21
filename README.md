@@ -87,7 +87,7 @@ A native desktop app that centralizes the entire ML pipeline for banking models 
 
 **Download:**
 - [Mac Installer (.dmg)](https://drive.google.com/file/d/1Amjs2ybDM-TLNMovfOONbmv_IVDMNAhS/view?usp=sharing)
-- [Windows Installer (.exe)](https://drive.google.com/file/d/1lYfZxUpTQ1YlA2mIterZiEOXyJyUoZXA/view?usp=sharing)
+- [Windows Installer (.exe)](https://drive.google.com/file/d/1OutAP0AA42mYrqHI_ez6hnNTZORmu6vi/view?usp=sharing)
 
 ---
 
