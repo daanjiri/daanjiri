@@ -44,30 +44,6 @@ An online Medical Intelligence tool where health professionals can research and 
 - AWS (Lambda, S3, etc.) & Azure cloud services  
 - Redis cache & SQL database  
 
----
-
-#### [Swarn AI — Autonomous Stock Trading Platform](https://frontend-production-23a9.up.railway.app/dashboard) · [GitHub](https://github.com/daanjiri/ai-trader)
-A full-stack, multi-agent system for autonomous swing trading that combines ML, LLMs, and multi-source sentiment analysis into a single observable pipeline — running continuously during market hours with no human intervention required.
-
-**Business Value:**
-- **Fully Autonomous**: Generates and evaluates signals every morning before market open with ~$135/month total operating cost
-- **Observable by Design**: Every pipeline step is logged with input/output/duration and visible in real time from the dashboard — no black box
-- **4-Layer Capital Protection**: Circuit breakers (daily/weekly/total drawdown), drift detection, market regime analysis (VIX/SPY), and emergency kill switch operate independently before any execution
-- **Compound Learning Loop**: Weekly automated post-mortem per trade → LLM review → dynamic weight updates → monthly XGBoost retraining on real trade data
-- **Validated Path to Live Trading**: 3-phase validation process (backtest → Monte Carlo → paper trading) with quantitative go-live criteria: Sharpe > 1.5, max drawdown < 20%, win rate > 55%
-
-**Built with:**
-- Python & FastAPI + LangGraph (multi-agent backend)
-- XGBoost + Claude Sonnet (signal scoring & LLM-adjusted execution decisions)
-- Multi-source sentiment swarm: Twitter, Reddit & News APIs in parallel
-- React 19 + TypeScript + shadcn/ui (5-screen dashboard with real-time WebSocket updates)
-- PostgreSQL (13 tables) + Redis + APScheduler
-- Alpaca broker integration
-- 142 E2E tests with Playwright
-- Railway + Docker (deployment)
-
----
-
 #### [Thorcast — Desktop ML Platform for Banking](https://www.figma.com/proto/YzHXONbxCKpIwzkkAStXPg/loom?node-id=0-1&t=2ul3SPBzUDPVZEUn-1)
 A native desktop app that centralizes the entire ML pipeline for banking models — credit risk, fraud detection, and marketing scoring — running 100% locally with no external servers or complex configuration.
 
@@ -86,8 +62,8 @@ A native desktop app that centralizes the entire ML pipeline for banking models 
 - GitHub Actions CI/CD (tests, linting, security scans, automated releases)
 
 **Download:**
-- [Mac Installer (.dmg)](https://drive.google.com/file/d/1Amjs2ybDM-TLNMovfOONbmv_IVDMNAhS/view?usp=sharing)
-- [Windows Installer (.exe)](https://drive.google.com/file/d/1OutAP0AA42mYrqHI_ez6hnNTZORmu6vi/view?usp=sharing)
+- [Mac Installer (.dmg)](https://drive.google.com/file/d/1yJkcHxW5rX04Vl40VGqwGIbyZX3STKft/view?usp=drive_link)
+- [Windows Installer (.exe)](https://drive.google.com/file/d/1dxz538EEv71eXZH5SGufnRM57LsGFQlc/view?usp=drive_link)
 
 ---
 
