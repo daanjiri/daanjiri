@@ -27,6 +27,9 @@
 ### 📂 Projects
 
 #### [ggraph — Git Client for the Terminal](https://github.com/daanjiri/gitgraph-tui)
+
+https://github.com/user-attachments/assets/0f6bf687-8359-4b25-acc8-d3f6d577dde2
+
 A git client that lives entirely in the terminal: a VS Code *Git Graph*-style commit graph as the main panel, with lazygit-style Status / Files / Branches / Pull Requests panels alongside. Built for an AI-era workflow where the terminal — not the IDE — is where the day happens. Free and open source (MIT), published on npm.
 
 **Business Value:**
