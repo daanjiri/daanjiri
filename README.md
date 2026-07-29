@@ -26,6 +26,34 @@
 
 ### 📂 Projects
 
+#### [ggraph — Git Client for the Terminal](https://github.com/daanjiri/gitgraph-tui)
+A git client that lives entirely in the terminal: a VS Code *Git Graph*-style commit graph as the main panel, with lazygit-style Status / Files / Branches / Pull Requests panels alongside. Built for an AI-era workflow where the terminal — not the IDE — is where the day happens. Free and open source (MIT), published on npm.
+
+**Business Value:**
+- **No Context Switching**: Removes the last reason to open an IDE — the commit graph — keeping the entire git workflow in one place
+- **Free Alternative to Paid Tools**: Per-hunk staging, interactive rebase and visual conflict resolution — features GitKraken charges for
+- **Works Over SSH**: Full visual git on remote machines and containers where GUI clients can't run at all
+- **Multi-Repo**: Discovers the repositories around you and switches between them without leaving the app
+- **Shipped & Public**: Published on npm, MIT licensed, installable in a single command
+
+**Built with:**
+- TypeScript & React 19 on Ink 7 (React renderer for the terminal)
+- Node.js ≥ 20, distributed as a global npm CLI (`ggraph`)
+- Custom commit-graph layout & rendering engine
+- git porcelain/plumbing wrappers + GitHub CLI (`gh`) for the Pull Requests panel
+- tsup build pipeline, Vitest unit & integration suites
+
+**Try it:**
+```bash
+npm install -g gitgraph-tui
+ggraph            # inside any git repository
+```
+
+- [npm package](https://www.npmjs.com/package/gitgraph-tui)
+- [Source on GitHub](https://github.com/daanjiri/gitgraph-tui)
+
+---
+
 #### [Pandora Medical Extraction agentic App](https://arkangel.ai/)  
 An online Medical Intelligence tool where health professionals can research and get information from patients effectively.
 
