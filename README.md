@@ -26,6 +26,30 @@
 
 ### 📂 Projects
 
+#### [Clinical Knowledge Graph — GraphRAG over FHIR](https://web-production-04f58.up.railway.app)
+
+A second brain for clinical records: 53 synthetic FHIR patient histories turned into a Neo4j knowledge graph of 32,783 events and 127,568 relationships, with a GraphRAG agent that walks fixed traversals and cites the exact node and date behind every claim. Built for the questions a document-shaped record cannot answer — what was active when, what treats what, and which two prescriptions written years apart in different visits interact.
+
+**Business Value:**
+- **Catches What a Single Visit Can't**: 53% of the interacting drug pairs it finds were prescribed in *different* encounters, a median of 3 years apart — risk that is invisible to an assistant which only sees today's consultation
+- **Auditable by Design**: Every answer cites node ids and dates, and both the agent and the API expose fixed traversals only — zero free-form Cypher against clinical data
+- **Cheaper Inference at Scale**: Reads ~11% of a patient record per answer (70 nodes out of 619 on average) instead of dumping the chart into the prompt
+- **Knowledge Loaded Once, Applied to Everyone**: The shared SNOMED/RxNorm/LOINC concept layer turned 6 drug-interaction rules into 22 edges that flagged 8 of 53 patients — and covers every patient ingested afterwards for free
+- **Chart-Audit Metric Out of the Box**: Surfaces that 28% of prescriptions carry no recorded indication — the exact gap clinical documentation auditors look for
+
+**Built with:**
+- Neo4j 5.26 — property graph with a native 384-d vector index
+- Python & FastAPI with SSE streaming; Claude tool-use agent over six fixed traversal tools
+- sentence-transformers multilingual embeddings for cross-lingual clinical search
+- React 19 & TypeScript, Tailwind 4, zustand, d3-force graph on SVG with a shared time brush
+- FHIR R4 / Synthea, coded in SNOMED · RxNorm · LOINC · CVX
+- Deployed on Railway + Neo4j AuraDB
+
+**Try it:**
+- [Live demo](https://web-production-04f58.up.railway.app) — 53 synthetic patients; pick one and ask the agent about their medication
+
+---
+
 #### [ggraph — Git Client for the Terminal](https://github.com/daanjiri/gitgraph-tui)
 
 https://github.com/user-attachments/assets/0f6bf687-8359-4b25-acc8-d3f6d577dde2
@@ -54,30 +78,6 @@ ggraph            # inside any git repository
 
 - [npm package](https://www.npmjs.com/package/gitgraph-tui)
 - [Source on GitHub](https://github.com/daanjiri/gitgraph-tui)
-
----
-
-#### [Clinical Knowledge Graph — GraphRAG over FHIR](https://web-production-04f58.up.railway.app)
-
-A second brain for clinical records: 53 synthetic FHIR patient histories turned into a Neo4j knowledge graph of 32,783 events and 127,568 relationships, with a GraphRAG agent that walks fixed traversals and cites the exact node and date behind every claim. Built for the questions a document-shaped record cannot answer — what was active when, what treats what, and which two prescriptions written years apart in different visits interact.
-
-**Business Value:**
-- **Catches What a Single Visit Can't**: 53% of the interacting drug pairs it finds were prescribed in *different* encounters, a median of 3 years apart — risk that is invisible to an assistant which only sees today's consultation
-- **Auditable by Design**: Every answer cites node ids and dates, and both the agent and the API expose fixed traversals only — zero free-form Cypher against clinical data
-- **Cheaper Inference at Scale**: Reads ~11% of a patient record per answer (70 nodes out of 619 on average) instead of dumping the chart into the prompt
-- **Knowledge Loaded Once, Applied to Everyone**: The shared SNOMED/RxNorm/LOINC concept layer turned 6 drug-interaction rules into 22 edges that flagged 8 of 53 patients — and covers every patient ingested afterwards for free
-- **Chart-Audit Metric Out of the Box**: Surfaces that 28% of prescriptions carry no recorded indication — the exact gap clinical documentation auditors look for
-
-**Built with:**
-- Neo4j 5.26 — property graph with a native 384-d vector index
-- Python & FastAPI with SSE streaming; Claude tool-use agent over six fixed traversal tools
-- sentence-transformers multilingual embeddings for cross-lingual clinical search
-- React 19 & TypeScript, Tailwind 4, zustand, d3-force graph on SVG with a shared time brush
-- FHIR R4 / Synthea, coded in SNOMED · RxNorm · LOINC · CVX
-- Deployed on Railway + Neo4j AuraDB
-
-**Try it:**
-- [Live demo](https://web-production-04f58.up.railway.app) — 53 synthetic patients; pick one and ask the agent about their medication
 
 ---
 
